@@ -2,7 +2,6 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
 
-
         <meta charset="UTF-8" />
         <title>Users</title>
         <style>
@@ -18,12 +17,8 @@
             }
         </style>
 
-
-
 </head>
 <body>
-
-
 
 <br>
 <hr/>
@@ -45,10 +40,7 @@
         <td th:utext="${user.age}">Age</td>
         <td>  <a th:href="@{/{id}/edit(id=${user.getId()})}"
                  th:text="edit">Edit</a>
-
-
         </td>
-
     </tr>
 </table>
 
